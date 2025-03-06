@@ -1,0 +1,17 @@
+name: First Workflow
+on: push
+jobs:
+    first-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Hello
+              run: echo "Hello Welcome to GitHub Actions"
+
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Good Morning
+              run: Good Morning All
+
+              
+
